@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+.bilbo-swash-caps-regular {
+    font-family: "Bilbo Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-400 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-700 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-slab-400 {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.droid-serif {
+    font-family: "Droid Serif", serif;
+    font-weight: 400;
+}
+
+#header {
+    width: 933;
+    height: 39;
+    margin-top: 44px;
+}
+
+.yellow {
+    color: #FED136;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 1.3px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-between {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 933px;
+    margin: auto;
+}
+
+nav a {
+    font-size: 14px;
+    line-height: 41px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+.services h1 {
+    color: #222222;
+    font-size: 40px;
+    line-height: 75px;
+    letter-spacing: -1px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+}
+
+.service-list {
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -0.35px;
+    text-align: center;
+    vertical-align: bottom;
+    color: #777777;
+
+}
+
+.service-list h1 {
+    font-size: 18px;
+    line-height: 75px;
+    letter-spacing: -0.45px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+footer {
+    background-color: #222222;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: bottom;
+    color: #777777;
+    height: 679px;
+
+}
+
+footer h1 {
+
+    font-size: 40px;
+    line-height: 75px;
+    letter-spacing: -1px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #BBBBBB;
+    font-size: 14px;
+    line-height: 50px;
+    letter-spacing: -0.35px;
+    vertical-align: bottom;
+    text-transform: uppercase;
+
+}
+
+form input {
+    height: 50px;
+}
+
+form textarea {
+    height: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    line-height: 50px;
+    border: 1px solid #CCCCCC;
+}
+
+.button {
+    width: 242px;
+    height: 68px;
+    background: #FED136;
+    display: block;
+
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.m-1 {
+    margin-bottom: 20px;
+}
+
+.m-2 {
+    margin-bottom: 60px;
+}
+
+.pt-2 {
+    padding-top: 60px;
+}
+
+.w-942px {
+    width: 942px;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.gap {
+    gap: 20px;
+}
+
+.align-center {
+    justify-content: center;
+}
